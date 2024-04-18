@@ -1,0 +1,30 @@
+.home__footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__footer section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0.7rem 0;
+}
+
+.home__footer section i {
+    color: var(--Celeste);
+    font-size: 2rem;
+}
+
+.home__footer section h4 {
+    color: var(--GrisOscuro);
+}
+
+.home__footer section p {
+    color: var(--GrisClaro);
+}
