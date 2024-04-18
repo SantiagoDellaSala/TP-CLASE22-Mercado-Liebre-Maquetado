@@ -20,6 +20,8 @@
 .home__header__divCompraCuotas {
     width: 100%;
     margin: 0.5rem 0;
+    display: flex;
+    justify-content: center;
 }
 
 .home__header__nav {
@@ -33,4 +35,12 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.home__header__menuHamb i {
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    margin: 0.5rem 0;
+    background-color: var(--Celeste);
+    color: var(--GrisClaro);
 }
