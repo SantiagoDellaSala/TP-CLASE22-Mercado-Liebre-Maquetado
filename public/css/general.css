@@ -1,0 +1,30 @@
+:root {
+    /* Colores */
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --GrisOscuro: #666;
+    --GrisClaro: #ebebeb;
+    --Verde: #39b54a;
+
+    /* Tipografías */
+    --font-Roboto:'Roboto', sans-serif;
+
+    /* Tamaño tipografías */
+    --CuerposDeTexto: 12px;
+    --Titulares: 24px;
+    --Precios: 18px;
+    --Descuentos: 16px;
+    --Descripciones: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font: var(--font-Roboto);
+}
