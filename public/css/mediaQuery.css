@@ -1,0 +1,18 @@
+/* TABLET */
+@media (min-width: 361px) {
+    .home__main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .home__header__nav {
+        display: block;
+    }
+
+    .home__header__menuHamb {
+        display: none;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 769px) {
+
+}

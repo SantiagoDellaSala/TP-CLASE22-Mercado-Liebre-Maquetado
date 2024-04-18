@@ -1,6 +1,11 @@
 .home__main {
-    width: 100%;
-    margin: 1rem 0;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .home__main section {
@@ -9,8 +14,35 @@
 
 .home__main section article {
     width: 100%;
+    border: 1px solid var(--GrisOscuro);
+    margin: 10px 0;
+    padding: 1rem;
 }
 
 .home__main section article img {
     width: 90%;
+}
+
+.home__main section article div {
+    border-top: 1px solid var(--GrisClaro);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    gap: 0.5rem;
+}
+
+.home__main section article div i {
+    width: 2rem;
+    color: var(--Verde);
+    border-radius: 50%;
+    border: 1px solid var(--Verde);
+    padding: 0.5rem;
+}
+
+.home__main section article div p {
+    color: var(--Verde);
+}
+
+.home__main section article h4 {
+    color: var(--GrisClaro);
 }
