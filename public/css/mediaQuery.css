@@ -11,6 +11,11 @@
 
 /* DESKTOP */
 @media (min-width: 769px) {
+    
+    .home__footer div {
+        display: flex;
+    }
+
     .home__header__menuHamb {
         display: none;
     }

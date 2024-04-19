@@ -1,0 +1,30 @@
+/* DESCRIPCION OCULTA */
+article h4 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+article:hover h4 {
+    opacity: 1;
+}
+
+/* SOMBRA ARTICULOS */
+.home__main section article:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CAMION */
+.home__main section article div i:hover {
+    transform: rotate(-90deg);
+    transition: transform 0.3s ease;
+}
+
+/* BOTON LOGIN */
+.boton:hover {
+    background-color: #0022AA;
+}
+
+/* ICONOS DEL FOOTER */
+.home__footer section i:hover {
+    color: #EAC926;
+}
