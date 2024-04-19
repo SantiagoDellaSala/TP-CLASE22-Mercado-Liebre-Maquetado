@@ -13,7 +13,10 @@
 @media (min-width: 769px) {
     
     .home__footer div {
+        width: 100%;
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .home__header__menuHamb {
