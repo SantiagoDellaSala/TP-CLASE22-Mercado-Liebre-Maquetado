@@ -1,18 +1,50 @@
 /* TABLET */
 @media (min-width: 361px) {
+    .home__main section{
+        grid-template-columns: repeat(2, 1fr);
+    }
     .home__main section article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-    .home__header__nav {
-        display: block;
-    }
-
-    .home__header__menuHamb {
-        display: none;
-    }
+    
 }
 
 /* DESKTOP */
 @media (min-width: 769px) {
+    .home__header__menuHamb {
+        display: none;
+    }
+    .home__main section{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .home__header__logoSearch {
+        gap: 0.5rem;
+        width: 100%;
+        flex-direction: row;
+    }
 
+    .home__header__divSearch {
+        width: 60%;
+        gap: 0.5rem;
+    }
+
+    .home__header__divCompraCuotas {
+        align-items: center;
+        width: 40%;
+    }
+
+    .home__header__nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.7rem 0;
+    }
+
+    .home__header__nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .home__header__nav ul li {
+        list-style: none;
+    }
 }

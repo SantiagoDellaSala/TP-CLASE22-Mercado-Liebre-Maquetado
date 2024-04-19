@@ -10,6 +10,10 @@
 
 .home__main section {
     width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center; 
+    gap: 1rem;
 }
 
 .home__main section article {
@@ -29,6 +33,7 @@
     flex-direction: column;
     padding: 1rem 0;
     gap: 0.5rem;
+    position: relative;
 }
 
 .home__main section article div i {
@@ -37,10 +42,29 @@
     border-radius: 50%;
     border: 1px solid var(--Verde);
     padding: 0.5rem;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 
 .home__main section article div p {
     color: var(--Verde);
+}
+
+.home__main section article div div {
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home__main section article div div small {
+    width: 30%;
+}
+
+.home__main section article div div p {
+    width: 70%;
 }
 
 .home__main section article h4 {
