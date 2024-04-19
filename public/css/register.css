@@ -53,14 +53,12 @@
 }
 
 /* Validaciones */
-/* Estilo por defecto para mensajes de error */
 .error-message {
-    display: none; /* Por defecto, ocultar el mensaje */
+    display: none;
     color: red;
     font-size: 14px;
 }
 
-/* Estilo para mostrar mensaje de error cuando el campo es inválido */
 input:invalid + .error-message {
     display: block;
 }
