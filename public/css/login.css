@@ -1,0 +1,8 @@
+.boton {
+    background-color: var(--Celeste);
+    color: #ffffff;
+    border: 0.5px solid var(--Azul);
+    border-radius: 0.3rem;
+    max-width: 200px;
+    padding: 0.4rem;
+}
