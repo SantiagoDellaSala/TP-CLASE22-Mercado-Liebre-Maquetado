@@ -47,7 +47,8 @@
         <form action="/" enctype="multipart/form-data">
             <div>
                 <label for="nombreApellido">Nombre y apellido</label>
-                <input type="text" id="nombreApellido" name="nombreApellido">
+                <input type="text" id="nombreApellido" name="nombreApellido" required minlength="2">
+                <span class="error-message">El nombre y apellido deben tener al menos dos caracteres</span>
             </div>
             <div>
                 <label for="nombreUsuario">Nombre de usuario</label>
