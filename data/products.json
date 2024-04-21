@@ -1,22 +1,26 @@
 [
     {
+        "id": 1,
         "nombre": "Cafetera Moulinex",
         "precio": 6770,
         "descuento": 40
     },
     {
+        "id": 2,
         "nombre": "MacBook Pro 2019",
-        "precio": 6770,
-        "descuento": 40
+        "precio": 230000,
+        "descuento": 20
     },
     {
-        "nombre": "Cafetera Moulinex",
-        "precio": 6770,
-        "descuento": 40
+        "id": 3,
+        "nombre": "Samsung Galaxy S10",
+        "precio": 70500,
+        "descuento": 10
     },
     {
-        "nombre": "Cafetera Moulinex",
-        "precio": 6770,
-        "descuento": 40
+        "id": 4,
+        "nombre": "SmartTv Samsung 43",
+        "precio": 23200,
+        "descuento": 5
     }
 ]
