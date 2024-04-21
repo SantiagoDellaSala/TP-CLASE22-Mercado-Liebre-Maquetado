@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 const PORT = 3000;
 const methodOverride = require('method-override');
-const indexRouter = require('./routes/index.router');
+const indexRouter = require('./routes/index.routes');
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(methodOverride('_method'));
